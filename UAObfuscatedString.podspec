@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    UAObfuscatedString is a simple and lightweight subclass of NSMutableString that allows you to prevent sensitive strings from appearing in the binary. Without some sort of obfuscation, strings like backend API methods and urls, API keys and other sensitive data can be read by utilizing various tools such as strings.
                    DESC
-  s.homepage     = "https://github.com/UrbanApps/UAObfuscatedString"
+  s.homepage     = "https://github.com/pedromancheno/UAObfuscatedString"
   s.license      = 'MIT'
   s.author       = { "Matt Coneybeare" => "coneybeare@urbanapps.com" }
   s.source       = { :git => "#{s.homepage}.git", :tag => s.version.to_s }
