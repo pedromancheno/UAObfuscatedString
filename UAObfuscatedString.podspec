@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "#{s.homepage}.git", :tag => s.version.to_s }
   s.source_files = "UAObfuscatedString.[h|m]"
   s.requires_arc = true # https://github.com/CocoaPods/CocoaPods/issues/2712
+  s.platform     = { "iOS": "7.0", "watchos": "2.0" }
 end
